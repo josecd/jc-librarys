@@ -8,6 +8,10 @@ Librería de angular con sub entrypoint para diferentes componentes standalone
   <br>
   ng new my-workspace --no-create-application
 
+- Creamos una aplicación en el mismo proyecto para las pruebas
+  <br>
+  ng generate applicaation testapp
+
 - Entramos a la carpeta
   <br>
   cd my-workspace
@@ -29,6 +33,9 @@ Librería de angular con sub entrypoint para diferentes componentes standalone
 - En la carpeta deberan contener 4 archivos que se muestran en el codigo
 
 - creamos el idex.ts general a nivel raiz de my-lib exportando un array vacio.
+
+## Probar en tiempo real la libreria
+ ng build --project=my-lib --watch
 
 ## Compilar la libreria
 
