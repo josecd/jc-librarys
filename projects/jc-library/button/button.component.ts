@@ -7,7 +7,7 @@ import {MatIconModule} from '@angular/material/icon';
   standalone: true,
   selector: 'jc-library-button',
   template: `
-
+      <h1>Test button</h1>
     <button mat-button color="primary"  (click)="showDate()">
     
     <ng-content>
