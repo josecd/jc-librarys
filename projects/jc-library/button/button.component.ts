@@ -21,9 +21,12 @@ import {MatIconModule} from '@angular/material/icon';
 })
 export class JcLibraryButtonComponent {
 
+    
+  /**
+   * Retorna una fecha con un formato "MM/dd/yyyyy"
+   */
   showDate() : void {
     console.log(format(new Date(),"MM/dd/yyyyy"))
-    
   } 
 
 

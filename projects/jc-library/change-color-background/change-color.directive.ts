@@ -3,7 +3,7 @@ import { Directive, ElementRef, HostListener, inject } from '@angular/core';
 /**
  * Description placeholder
  * @date 10/30/2023 - 11:07:18 AM
- *
+ * Transforma un elemento de html con su background de color azul
  * @export
  * @class ChangeColorDirective
  * @typedef {ChangeColorDirective}
